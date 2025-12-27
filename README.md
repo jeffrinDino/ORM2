@@ -19,7 +19,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 5 Car 
 
 ## PROGRAM
-'''
+```
 admin.py
 from django.contrib import admin
 from.models import Car,CarAdmin
@@ -37,7 +37,7 @@ class Car(models.Model):
 class CarAdmin(admin.ModelAdmin):
     list_display=('brand_name', 'car_name', 'enginenum', 'release_date')
 
-I
+```
 
 ## OUTPUT
 Include your output
